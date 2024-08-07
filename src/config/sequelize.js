@@ -2,7 +2,7 @@ require('./dotenv')
 
 const { Sequelize } = require('sequelize');
 
-console.log(process.env.DB_DIALECT)
+
 
 const sequelize = new Sequelize ({
     database: process.env.DB_NAME,
